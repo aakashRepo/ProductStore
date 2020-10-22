@@ -1,0 +1,236 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3467077138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify Product Store",
+        "description": "",
+        "id": "product-store;verify-product-store",
+        "after": [
+          {
+            "result": {
+              "duration": 196927229,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216164534,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to laptop",
+            "match": {
+              "location": "HomePageStepDefs.i_navigate_to_laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1161035402,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click \"Sony vaio i5\" to move to PDP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sony vaio i5",
+                  "offset": 9
+                }
+              ],
+              "location": "HomePageStepDefs.i_click_to_move_to_PDP(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1844756104,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Add to Cart",
+            "match": {
+              "location": "PDPStepDefs.i_click_on_Add_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137108649,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I move to HomePage",
+            "match": {
+              "location": "HomePageStepDefs.i_move_to_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117078133,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to laptop",
+            "match": {
+              "location": "HomePageStepDefs.i_navigate_to_laptop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 800558350,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click \"Dell i7 8gb\" to move to PDP",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 9
+                }
+              ],
+              "location": "HomePageStepDefs.i_click_to_move_to_PDP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959890968,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add to Cart",
+            "match": {
+              "location": "PDPStepDefs.i_click_on_Add_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 724999672,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I move to cart page",
+            "match": {
+              "location": "PDPStepDefs.i_move_to_cartpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3198153409,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I delete \"Dell i7 8gb\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 10
+                }
+              ],
+              "location": "CartPageStepDefs.i_delete_from_cart(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 754844963,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I place an order",
+            "match": {
+              "location": "CartPageStepDefs.i_place_an_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31323106,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify the purchase amount is \"1490\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1490",
+                  "offset": 33
+                }
+              ],
+              "location": "CartPageStepDefs.i_verify_the_purchase_amount_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55500040,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click ok",
+            "match": {
+              "location": "CartPageStepDefs.i_click_ok()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Productstorefeature"
+          },
+          {
+            "name": "@productstore"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Product Store",
+    "description": "",
+    "id": "product-store",
+    "keyword": "Feature",
+    "uri": "features/ProductStore.feature",
+    "tags": [
+      {
+        "name": "@Productstorefeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
